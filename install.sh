@@ -116,7 +116,7 @@ fi
 
 
 # echo "Moving DotFiles now"
-
+cp ./dotfiles/img/minimal.jpg "$HOMEPATH/Wallpapers/"
 cp -r ./dotfiles/* "$HOME_PATH/.config/"
 
 
