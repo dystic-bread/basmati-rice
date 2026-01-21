@@ -1,0 +1,12 @@
+outputs = "All"
+
+[modules]
+left = [ "Workspaces" ]
+center = [ "WindowTitle" ]
+right = [ "SystemInfo", [ "Clock" ] ]
+
+[workspaces]
+enable_workspace_filling = true
+max_workspaces = 5
+[system_info]
+indicators = [ "Cpu", "Memory"]
